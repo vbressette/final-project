@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Tranquil Resort | Contact</title>
+        <meta name="author" content="Valora Bressette">
+        <meta name="description" content="Final Project">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Seymour+One&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html">The Tranquil Resort</a></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <img src="images/swiss-valley.jpg" alt="Valley range with pine trees lining the sides and mountains in the distance, with river running in the center">
+        </header>
+
+        <main>
+            <h2>Contact Us</h2>
+
+            <p>
+                Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+
+                Required fields marked with a *
+            </p>
+
+            <img class="contact-image" src="images/swiss-sunset.jpg" alt="View from the water looking towards the chalets with the sunset over the mountains in the distance" height="270" width="710">
+
+            <form action="https://wp.zybooks.com/form-viewer.phpLinks to an external site" method="post">
+               <div class="form-columns">
+                <div class="form-left">
+                    <div class=""form-group">
+                        <label for="full-name">Full Name: <span="Required">*</span></span></label>
+                        <input type="text" id="full-name" name="full-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address: <span="Required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number: <span>*</span></label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+
+                <div class="form-right">
+                    <fieldset class="form-group">
+                        <legend>Preferred Contact Method <span style="color:red">*</span></legend>
+
+                        <label><input type="radio" name="contact-method" value="email" required>Email</label>
+                        <label><input type="radio" name="contact-method" value="phone" required>Phone</label>
+                    </fieldset>
+
+                    <div class="form-group">
+                        <label for="comments">Comments:</label>
+                        <textarea id="comments" name="comments" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+                </div>
+            
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright &copy;2023 - The Tranquil Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
